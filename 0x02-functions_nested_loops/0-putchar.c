@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main print _putchar
  * Description: prints '_putchar \n'
  * Return: Always 0 (success)
  */
@@ -9,16 +9,14 @@
 int main(void)
 
 {
-	char str[] = "_putchar\n";
-	int i = 0;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
-	while (str[i] != '\0')
-{
-
-	char = str[i];
-	_putchar (c);
-	i++;
-}
 	return (0);
-
-}
+}	
